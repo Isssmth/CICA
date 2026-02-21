@@ -60,13 +60,16 @@ Clone the repository and open eg1.html in a web browser.
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](![alt text](image-2.png))
+<img width="1920" height="1080" alt="Screenshot 2026-02-21 085845" src="https://github.com/user-attachments/assets/3c403d7b-f3de-45af-9050-3763841bde99" />
+
 available locations, if stock available or not
 
-![Screenshot2](![alt text](image-1.png))
+<img width="1920" height="1080" alt="Screenshot 2026-02-21 085903" src="https://github.com/user-attachments/assets/8a208b46-0e6e-451d-883b-ce9ff7747ccc" />
+
 admin panel
 
-![Screenshot3](![alt text](image.png))
+![Uploading Screenshot 2026-02-21 085917.png…]()
+
 awareness, more options
 
 
