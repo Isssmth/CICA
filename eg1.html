@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pad Availability Tracker</title>
+  <link rel="stylesheet" href="eg1.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">CICA ≧◡≦</h1>
+    <p><em><strong> Here when you need it!</strong></em></p>
+  </header>
+
+  
+  <section id="locations-section"> 
+    <h2>WASHROOM LOCATIONS (◣_◢)</h2> 
+    <div id="locations-container"></div> 
+  </section>
+    
+   <section id="insights-section">
+    <h2> DATA INSIGHTS (◣_◢)</h2> 
+    <p>Total Locations: <span id="totalLocations"></span></p> <p>Out of Stock Locations: <span id="outOfStockCount"></span></p> 
+    
+  </section>
+
+  <section id="admin-section">
+  <h2>ADMIN PANEL (◣_◢)</h2>
+
+  <button onclick="toggleSection('admin-content')">
+    Open Admin Dashboard
+  </button>
+
+  <div id="admin-content" class="hidden-content">
+
+    <h3>Notification Log</h3>
+    <div id="notification-log"></div>
+
+    <br>
+
+    <button onclick="restock()" class="restock-btn">
+      Restock All Locations
+    </button>
+
+    <button onclick="clearLogs()" class="restock-btn">
+  Clear Notification Log
+  </button>
+
+  </div>
+</section>
+
+ <section id="extra-section">
+  <h2>MORE OPTIONS (◣_◢)</h2>
+
+  
+  <button onclick="toggleSection('awareness-content')">
+    Menstrual Health Awareness
+  </button>
+
+  
+  <div id="awareness-content" class="hidden-content">
+
+    <div class="awareness-container">
+
+      <div class="awareness-box">
+        <h4 onclick="toggleSection('hygiene')">Hygiene Tips</h4>
+        <div id="hygiene" class="hidden-content">
+          • Change pads every 4–6 hours<br>
+          • Wash hands before & after use<br>
+          • Dispose properly<br>
+          • Maintain daily hygiene
+        </div>
+      </div>
+
+      <div class="awareness-box">
+        <h4 onclick="toggleSection('mythfact')">Myth vs Fact</h4>
+        <div id="mythfact" class="hidden-content">
+          Myth: You cannot exercise.<br>
+          Fact: Light exercise helps cramps.<br><br>
+          Myth: Period blood is impure.<br>
+          Fact: It is natural.
+        </div>
+      </div>
+
+      <div class="awareness-box">
+        <h4 onclick="toggleSection('govt')">Government Schemes</h4>
+        <div id="govt" class="hidden-content">
+          • Free sanitary pad initiatives<br>
+          • School distribution programs<br>
+          • Public health campaigns
+        </div>
+      </div>
+
+      <div class="awareness-box">
+        <h4 onclick="toggleSection('awareness')">Menstrual Awareness</h4>
+        <div id="awareness" class="hidden-content">
+          Menstruation is natural and normal.
+          Reducing stigma improves dignity,
+          health access and equality.
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  
+  <button onclick="toggleSection('emergency-content')">
+    Emergency Help
+  </button>
+
+  <div id="emergency-content" class="hidden-content">
+    <p>If urgent:</p>
+    <ul>
+      <li>Contact campus nurse : xxxxxxxxxx</li>
+      <li>Visit nearest pharmacy</li>
+      <li>Reach out to student welfare office : xxxxxxxxxx</li>
+    </ul>
+  </div>
+</section>
+
+  <footer>
+    <p>Prototype Version – Hackathon Project</p>
+  </footer>
+
+  <script src="eg1.js"></script>
+</body>
+</html>
