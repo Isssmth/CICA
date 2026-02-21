@@ -67,8 +67,8 @@ available locations, if stock available or not
 <img width="1920" height="1080" alt="Screenshot 2026-02-21 085903" src="https://github.com/user-attachments/assets/8a208b46-0e6e-451d-883b-ce9ff7747ccc" />
 
 admin panel
+<img width="1920" height="1080" alt="Screenshot 2026-02-21 085917" src="https://github.com/user-attachments/assets/524e1fba-d5b0-42c4-9d50-d4a1a215006c" />
 
-![Uploading Screenshot 2026-02-21 085917.png…]()
 
 awareness, more options
 
